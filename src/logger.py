@@ -5,8 +5,8 @@ import datetime
 
 LOG_File=f"{datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}.log"
 
-loger_path=os.path.join(os.getcwd(),"TitanicData_ml_project_\logs", LOG_File)
-os.mkdir(loger_path)
+loger_path=os.path.join(os.getcwd(),"logs", LOG_File)
+os.makedirs(loger_path,exist_ok=True)
 
 LOG_fILE_PATH= os.path.join(loger_path,LOG_File)
 
