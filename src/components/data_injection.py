@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from src.exception import CustomException
 from src.logger import logging
 import os
-from src.components.model_training import ModelTrainer
+import src.components.model_training
 from src.components.data_transformation import DataTransformation
 
 
@@ -65,7 +65,7 @@ if __name__=="__main__":
     data_transformation=DataTransformation()
     train_array,test_array=data_transformation.initial_data_transformation(train_data,test_data)
 
-    model_trainer=ModelTrainer()
+    model_trainer=src.components.model_training.ModelTrainer()
     print(model_trainer.initiate_model_trainer(train_array,test_array))
     
 
