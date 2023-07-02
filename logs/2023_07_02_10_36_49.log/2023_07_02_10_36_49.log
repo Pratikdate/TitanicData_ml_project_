@@ -1,0 +1,32 @@
+[2023-07-02 10:36:51,221] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 10:36:51,241] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:35} INFO - read the train data PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Cabin          0
+Embarked       0
+dtype: int64
+[2023-07-02 10:36:51,251] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:39} INFO - Initialise train test split
+[2023-07-02 10:36:51,264] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:45} INFO - Ingection of data is completed
+[2023-07-02 10:36:51,297] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:70} INFO - tranin and test data successfully read 
+[2023-07-02 10:36:51,298] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 10:36:51,298] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 10:36:51,298] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:74} INFO - preprocessor_obj successfully creat 
+[2023-07-02 10:36:51,302] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:85} INFO - drop target,"Cabin","Name","Ticket"  successfuly
+[2023-07-02 10:36:51,302] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:86} INFO - Index(['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked'], dtype='object')
+[2023-07-02 10:36:51,365] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:98} INFO - Saved preprocessing object.
+[2023-07-02 10:36:51,365] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:39} INFO - split training and test input data 
+[2023-07-02 10:36:51,735] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:51,740] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:51,849] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:51,866] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:51,871] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:51,948] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:53,334] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:36:53,548] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested

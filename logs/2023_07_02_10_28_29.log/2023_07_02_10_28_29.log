@@ -1,0 +1,24 @@
+[2023-07-02 10:28:31,235] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 10:28:31,263] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:35} INFO - read the train data PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Cabin          0
+Embarked       0
+dtype: int64
+[2023-07-02 10:28:31,270] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:39} INFO - Initialise train test split
+[2023-07-02 10:28:31,280] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:45} INFO - Ingection of data is completed
+[2023-07-02 10:28:31,311] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:70} INFO - tranin and test data successfully read 
+[2023-07-02 10:28:31,311] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 10:28:31,312] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 10:28:31,312] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:74} INFO - preprocessor_obj successfully creat 
+[2023-07-02 10:28:31,314] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:85} INFO - drop target,"Cabin","Name","Ticket"  successfuly
+[2023-07-02 10:28:31,315] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:86} INFO - Index(['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked'], dtype='object')
+[2023-07-02 10:28:31,352] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:98} INFO - Saved preprocessing object.
+[2023-07-02 10:28:31,352] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:39} INFO - split training and test input data 

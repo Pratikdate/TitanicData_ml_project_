@@ -1,0 +1,33 @@
+[2023-07-02 10:41:39,490] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 10:41:39,490] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:35} INFO - read the train data PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Cabin          0
+Embarked       0
+dtype: int64
+[2023-07-02 10:41:39,506] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:39} INFO - Initialise train test split
+[2023-07-02 10:41:39,521] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:45} INFO - Ingection of data is completed
+[2023-07-02 10:41:39,544] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:70} INFO - tranin and test data successfully read 
+[2023-07-02 10:41:39,544] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 10:41:39,544] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 10:41:39,544] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:74} INFO - preprocessor_obj successfully creat 
+[2023-07-02 10:41:39,546] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:85} INFO - drop target,"Cabin","Name","Ticket"  successfuly
+[2023-07-02 10:41:39,546] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:86} INFO - Index(['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked'], dtype='object')
+[2023-07-02 10:41:39,578] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:98} INFO - Saved preprocessing object.
+[2023-07-02 10:41:39,579] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:39} INFO - split training and test input data 
+[2023-07-02 10:41:39,936] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:39,938] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:40,025] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:40,041] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:40,046] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:40,127] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:41,132] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:41,164] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:41:41,164] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:65} INFO - {'RandomForest': -0.7890391546081827, 'Decision Tree': -0.42307692307692313, 'GradientBoosting': -0.21062900962397757, 'Linear Regression': -1.2429217676521946, 'k-nn Regressior': -0.8768115942028984, 'XGBRegressior': -0.48886711160088137, 'Catboost': -0.47061476319675966, 'Adaboost': -1.687876753329252}

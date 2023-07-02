@@ -1,0 +1,35 @@
+[2023-07-02 10:55:18,452] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 10:55:18,467] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:35} INFO - read the train data PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Cabin          0
+Embarked       0
+dtype: int64
+[2023-07-02 10:55:18,476] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:39} INFO - Initialise train test split
+[2023-07-02 10:55:18,490] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:45} INFO - Ingection of data is completed
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:70} INFO - tranin and test data successfully read 
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:74} INFO - preprocessor_obj successfully creat 
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:85} INFO - drop target,"Cabin","Name","Ticket"  successfuly
+[2023-07-02 10:55:18,510] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:86} INFO - Index(['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked'], dtype='object')
+[2023-07-02 10:55:18,535] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:98} INFO - Saved preprocessing object.
+[2023-07-02 10:55:18,536] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:39} INFO - split training and test input data 
+[2023-07-02 10:55:18,746] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:18,746] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:18,840] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:18,990] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:18,998] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:19,338] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:21,453] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:21,535] {c:\github\titanicdata_ml_project_\src\utils.py:37} INFO - model successfully tested
+[2023-07-02 10:55:21,535] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:67} INFO - -0.19509371599926673
+[2023-07-02 10:55:21,535] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:72} INFO - No any Best Model
+[2023-07-02 10:55:21,535] {c:\GitHub\TitanicData_ml_project_\src\components\model_training.py:73} INFO - Best Model found on both training and test sets 

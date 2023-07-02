@@ -1,0 +1,8 @@
+[2023-07-02 09:04:09,759] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 09:04:09,771] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:33} INFO - read the train data
+[2023-07-02 09:04:09,783] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:37} INFO - Initialise train test split
+[2023-07-02 09:04:09,811] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:43} INFO - Ingection of data is completed
+[2023-07-02 09:04:09,843] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:69} INFO - tranin and test data successfully read 
+[2023-07-02 09:04:09,847] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Survived', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 09:04:09,847] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 09:04:09,847] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:73} INFO - preprocessor_obj successfully creat 

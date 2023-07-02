@@ -1,0 +1,21 @@
+[2023-07-02 09:15:52,602] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:30} INFO - Enter the data ingection
+[2023-07-02 09:15:52,664] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:35} INFO - read the train data      PassengerId  Survived  Pclass  ...   Fare  Cabin  Embarked
+0          False     False   False  ...  False   True     False
+1          False     False   False  ...  False  False     False
+2          False     False   False  ...  False   True     False
+3          False     False   False  ...  False  False     False
+4          False     False   False  ...  False   True     False
+..           ...       ...     ...  ...    ...    ...       ...
+886        False     False   False  ...  False   True     False
+887        False     False   False  ...  False  False     False
+888        False     False   False  ...  False   True     False
+889        False     False   False  ...  False  False     False
+890        False     False   False  ...  False   True     False
+
+[891 rows x 12 columns]
+[2023-07-02 09:15:52,680] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:39} INFO - Initialise train test split
+[2023-07-02 09:15:52,703] {c:\GitHub\TitanicData_ml_project_\src\components\data_injection.py:45} INFO - Ingection of data is completed
+[2023-07-02 09:15:52,728] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:69} INFO - tranin and test data successfully read 
+[2023-07-02 09:15:52,728] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:52} INFO - start numerical transformation ['Survived', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
+[2023-07-02 09:15:52,728] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:53} INFO - start categorial transformation ['Sex', 'Embarked']
+[2023-07-02 09:15:52,728] {c:\github\titanicdata_ml_project_\src\components\data_transformation.py:73} INFO - preprocessor_obj successfully creat 

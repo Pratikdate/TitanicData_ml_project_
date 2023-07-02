@@ -12,10 +12,8 @@ from sklearn.model_selection import train_test_split
 from src.exception import CustomException
 from src.logger import logging
 import os
-import src.components.model_training
+import model_training
 from src.components.data_transformation import DataTransformation
-
-
 from src.utils import *
 
 @dataclass
@@ -31,8 +29,10 @@ class DataIngection:
     def initiate_data_ingection(self):
         logging.info("Enter the data ingection")
         try:
-            df=pd.read_csv("jupyter\Jupyter\mytrain.csv")
-            logging.info("read the train data")
+            df=pd.read_csv("jupyter\mytrain.csv").dropna()
+            
+            
+            logging.info(f"read the train data {df.isna().sum()}")
 
             os.makedirs(os.path.dirname(self.ingection_config.train_data_path),exist_ok=True)
             df.to_csv(self.ingection_config.test_data_path,index=False,header=True)
@@ -63,9 +63,9 @@ if __name__=="__main__":
     train_data,test_data=obj.initiate_data_ingection()
 
     data_transformation=DataTransformation()
-    train_array,test_array=data_transformation.initial_data_transformation(train_data,test_data)
+    train_array,test_array,preprocessor_obj_file_path=data_transformation.initial_data_transformation(train_data,test_data)
 
-    model_trainer=src.components.model_training.ModelTrainer()
-    print(model_trainer.initiate_model_trainer(train_array,test_array))
+    model_trainer=model_training.ModelTrainer()
+    print(model_trainer.initiate_model_trainer(train_array,test_array,preprocessor_obj_file_path))
     
 
